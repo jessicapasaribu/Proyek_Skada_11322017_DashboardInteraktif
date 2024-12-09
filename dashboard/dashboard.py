@@ -51,12 +51,12 @@ st.write("### Analisis dan visualisasi mendalam untuk memantau performa marketpl
 
 
 # Load dataset
-customers = pd.read_csv('customers_dataset.csv')
-sellers = pd.read_csv('sellers_dataset.csv')
-products = pd.read_csv('products_dataset.csv')
-orders = pd.read_csv('orders_dataset.csv')
-order_reviews = pd.read_csv('order_reviews_dataset.csv')
-order_items = pd.read_csv('order_items_dataset.csv')
+customers = pd.read_csv('dashboard/customers_dataset.csv')
+sellers = pd.read_csv('dashboard/sellers_dataset.csv')
+products = pd.read_csv('dashboard/products_dataset.csv')
+orders = pd.read_csv('dashboard/orders_dataset.csv')
+order_reviews = pd.read_csv('dashboard/order_reviews_dataset.csv')
+order_items = pd.read_csv('dashboard/order_items_dataset.csv')
 
 # Bagian pertama: Ringkasan Data
 st.markdown("## 📋 Ringkasan Data")
