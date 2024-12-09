@@ -1,1 +1,1 @@
-https://dashboard-jessica.streamlit.app/
+https://proyek-skada.streamlit.app/
